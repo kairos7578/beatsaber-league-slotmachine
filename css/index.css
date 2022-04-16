@@ -1,0 +1,275 @@
+@import url(common.css);
+
+#body{
+  width: 1280px;
+  height: 720px;
+  position: relative;
+}
+
+/* PLAYER */
+#body .player{
+  width: 350px;
+  height: 240px;
+  background: #dd7db8;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#body .player .photo{
+  width: 180px;
+  height: 220px;
+  background: #fff;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+#body .player #name{
+  font-size: 36px;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+  font-weight: bold;
+}
+#body .player #point{
+  font-size: 30px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  font-weight: bold;
+}
+
+/* PLAYER 2 */
+#body .player2{
+  width: 350px;
+  height: 240px;
+  background: #dd1234;
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+#body .player2 .photo{
+  width: 180px;
+  height: 220px;
+  background: #fff;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+#body .player2 #name{
+  font-size: 36px;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+  font-weight: bold;
+}
+#body .player2 #point{
+  font-size: 30px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  font-weight: bold;
+}
+
+/* PLAYER 3 */
+#body .player3{
+  width: 350px;
+  height: 240px;
+  background: purple;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+#body .player3 .photo{
+  width: 180px;
+  height: 220px;
+  background: #fff;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+#body .player3 #name{
+  font-size: 36px;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+  font-weight: bold;
+}
+#body .player3 #point{
+  font-size: 30px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  font-weight: bold;
+}
+
+/* PLAYER 4 */
+#body .player4{
+  width: 350px;
+  height: 240px;
+  background: bisque;
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+}
+#body .player4 .photo{
+  width: 180px;
+  height: 220px;
+  background: #fff;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+#body .player4 #name{
+  font-size: 36px;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+  font-weight: bold;
+}
+#body .player4 #point{
+  font-size: 30px;
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  font-weight: bold;
+}
+
+/* PLAYERS */
+#body .players{
+  position: absolute;
+  width: 380px;
+  height: 240px;
+  background: lightcoral;
+  left: 350px;
+  top: 0;
+  box-sizing: content-box;
+}
+#body .players .players_name{
+  width: 80px;
+  height: 80px;
+  background: lightgreen;
+  float: left;
+  margin-left: 12px;
+  margin-top: 25px;
+}
+/* PLAYERS2 */
+#body .players2{
+  position: absolute;
+  width: 380px;
+  height: 240px;
+  background: lightcoral;
+  left: 350px;
+  bottom: 0;
+  box-sizing: content-box;
+}
+#body .players2 .players_name{
+  width: 80px;
+  height: 80px;
+  background: lightgreen;
+  float: left;
+  margin-left: 12px;
+  margin-top: 25px;
+}
+
+/* Matched */
+#body .matched{
+  width: 330px;
+  height: 100px;
+  background: aqua;
+  position: absolute;
+  top: 250px;
+  left: 10px;
+}
+#body .matched .matched_player{
+  width: 75px;
+  height: 80px;
+  margin-top: 10px;
+  background: chocolate;
+  float: left;
+  margin-left: 6px;
+}
+
+/* Matched2 */
+#body .matched2{
+  width: 330px;
+  height: 100px;
+  background: #333;
+  position: absolute;
+  bottom: 250px;
+  left: 10px;
+}
+#body .matched2 .matched_player{
+  width: 75px;
+  height: 80px;
+  margin-top: 12px;
+  background: chocolate;
+  float: left;
+  margin-left: 6px;
+}
+
+/* Matched3 */
+#body .matched3{
+  width: 330px;
+  height: 100px;
+  background: #333;
+  position: absolute;
+  top: 250px;
+  right: 210px;
+}
+#body .matched3 .matched_player{
+  width: 75px;
+  height: 80px;
+  margin-top: 12px;
+  background: chocolate;
+  float: left;
+  margin-left: 6px;
+}
+
+/* Matched4 */
+#body .matched4{
+  width: 330px;
+  height: 100px;
+  background: #333;
+  position: absolute;
+  bottom: 250px;
+  right: 210px;
+}
+#body .matched4 .matched_player{
+  width: 75px;
+  height: 80px;
+  margin-top: 12px;
+  background: chocolate;
+  float: left;
+  margin-left: 6px;
+}
+
+/* slot_effect */
+.slot_effect{
+  width: 360px;
+  height: 220px;
+  background:crimson;
+  position: absolute;
+  left: 360px;
+  top: 250px;
+}
+.slot_effect .slot_name{
+  width: 360px;
+  height: 40px;
+  background: #999;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.slot_effect .slot_name p{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* matchine - 우측화면 */
+#machine{
+  width: 200px;
+  height: 720px;
+  background: #dd7db8;
+  float: right;
+}
+
